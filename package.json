@@ -1,0 +1,17 @@
+{
+  "name": "sweepster-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server hotels.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^1.0.0-alpha.19",
+    "json-server-auth": "^2.1.0"
+  }
+}
