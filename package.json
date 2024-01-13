@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start-json-server": "json-server hotels.json --watch",
     "start": "json-server hotels.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
