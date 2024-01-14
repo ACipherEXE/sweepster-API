@@ -9,4 +9,5 @@ server.use(router);
 
 server.listen(port, () => {
   console.log(port);
+  console.log(port);
 });
