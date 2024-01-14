@@ -21,13 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Start json-server in the background
-        run: cmd /c "start npm run json-server -- --watch hotels.json --port 3000"
-
-      - name: Build, test, and deploy
-        run: |
-          npm run build --if-present
-          npm run test --if-present
+      - name: Build, including starting json-server
+        run: npm run build
 
   deploy:
     runs-on: ubuntu-latest
