@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Start json-server in the background
-        run: start /B npm run json-server -- --watch hotels.json --port 3000
+        run: cmd /c "start npm run json-server -- --watch hotels.json --port 3000"
 
       - name: Build, test, and deploy
         run: |
