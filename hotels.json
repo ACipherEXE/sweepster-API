@@ -2,8 +2,13 @@
   "hotels": [
     {
       "id": "c3a7",
-      "Hotel_Number": "abc000",
-      "Staff_List": ["abc000", "abc111", "abc222", "abc444"],
+      "Hotel_Number": "abc69",
+      "Staff_List": [
+        "abc000",
+        "abc111",
+        "abc222",
+        "abc444"
+      ],
       "hotel_data": {
         "floors": [
           {
@@ -180,7 +185,12 @@
     {
       "id": "c3a6",
       "Hotel_Number": "exp000",
-      "Staff_List": ["abc000", "abc111", "abc222", "abc444"],
+      "Staff_List": [
+        "abc000",
+        "abc111",
+        "abc222",
+        "abc444"
+      ],
       "hotel_data": {
         "floors": [
           {
@@ -357,7 +367,12 @@
     {
       "id": "c3a8",
       "Hotel_Number": "Thisisatest",
-      "Staff_List": ["abc000", "abc111", "abc222", "abc444"],
+      "Staff_List": [
+        "abc000",
+        "abc111",
+        "abc222",
+        "abc444"
+      ],
       "hotel_data": {
         "floors": [
           {
