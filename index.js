@@ -2,7 +2,7 @@ const express = require("express");
 const jsonServer = require("json-server");
 
 const server = express();
-
+const port = process.env.PORT || 3000;
 // Define your master key
 const MASTER_KEY = "your_master_key";
 
@@ -22,11 +22,10 @@ const masterKeyAuthMiddleware = (req, res, next) => {
 server.use(masterKeyAuthMiddleware);
 
 // Mount JSON Server
-const jsonServerRouter = jsonServer.router("hotels.json"); // Replace 'db.json' with your JSON data file
+const jsonServerRouter = jsonServer.router("hotels.json");
 server.use("/api", jsonServerRouter);
 
 // Start the server
-const PORT = 3000;
-server.listen(PORT, () => {
+server.listen(port, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
