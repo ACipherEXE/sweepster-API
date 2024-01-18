@@ -27,5 +27,5 @@ server.use("/api", jsonServerRouter);
 
 // Start the server
 server.listen(port, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is running on http://localhost:${port}`);
 });
