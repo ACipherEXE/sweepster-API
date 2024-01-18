@@ -2,7 +2,7 @@ const express = require("express");
 const jsonServer = require("json-server");
 
 const server = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8181;
 // Define your master key
 const MASTER_KEY = "your_master_key";
 
