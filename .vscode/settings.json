@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/d52fbfe0-cf69-4506-ac07-9f206cd615cd/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/sweppster-api-v2",
+  "appService.deploySubpath": "."
+}
