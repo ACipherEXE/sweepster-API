@@ -1,9 +1,9 @@
 const express = require("express");
 const jsonServer = require("json-server");
+const cors = require("cors");
 
 const server = express();
 const port = process.env.PORT || 8181;
-// Define your master key
 const MASTER_KEY = "your_master_key";
 
 // Middleware to check the master key in headers
@@ -18,6 +18,9 @@ const masterKeyAuthMiddleware = (req, res, next) => {
   next();
 };
 
+// Enable CORS for all routes
+server.use(cors());
+
 // Use the master key authentication middleware
 server.use(masterKeyAuthMiddleware);
 
@@ -27,5 +30,5 @@ server.use("/api", jsonServerRouter);
 
 // Start the server
 server.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port} `);
+  console.log(`Server is running on http://localhost:${port}`);
 });
