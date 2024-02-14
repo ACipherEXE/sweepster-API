@@ -24,8 +24,31 @@ server.use(cors());
 // Use the master key authentication middleware
 server.use(masterKeyAuthMiddleware);
 
-// Mount JSON Server
-const jsonServerRouter = jsonServer.router("hotels.json");
+// Custom login route
+server.post("/api/login", (req, res) => {
+  const { email, password } = req.body;
+
+  const users = require("./hotels.json").users;
+
+  // Search for the user with the provided email
+  const user = users.find((user) => user.email === email);
+
+  // If user not found or password doesn't match, return error
+  if (!user || user.pass !== password) {
+    return res.status(401).json({ error: "Invalid email or password" });
+  }
+
+  // If password matches, construct and send user data
+  const userData = {
+    userId: user.user_id,
+    nickname: user.nickname,
+    hotelId: user.Hotel_Number,
+  };
+  res.json(userData);
+});
+
+// Mount JSON Server with the --id option to force ID generation
+const jsonServerRouter = jsonServer.router("hotels.json", { id: "id" });
 server.use("/api", jsonServerRouter);
 
 // Start the server

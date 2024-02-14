@@ -4,10 +4,53 @@
       "id": "c3a7",
       "Hotel_Number": "abc69",
       "Staff_List": [
-        "abc000",
-        "abc111",
-        "abc222",
-        "abc444"
+        {
+          "user_id": "583c3ac3f38e84297c002546",
+          "staff_id": "abc000",
+          "email": "test@test.com",
+          "given_name": "UCTest",
+          "first_name": "UCTests",
+          "last_name": "UCTest",
+          "nickname": "test",
+          "logins_count": 15,
+          "Hotel_Number": "Thisisatest",
+          "permission": "user"
+        },
+        {
+          "user_id": "583c5484cb79a5fe593425a9",
+          "staff_id": "abc111",
+          "email": "test1@test.com",
+          "first_name": "Chris",
+          "last_name": "Negron",
+          "given_name": "UCTest1",
+          "nickname": "test1",
+          "logins_count": 1,
+          "Hotel_Number": "exp000",
+          "permission": "user"
+        },
+        {
+          "user_id": "583c57672c7686377d2f66c9",
+          "staff_id": "abc222",
+          "email": "aaa@aaa.com",
+          "first_name": "aaa",
+          "last_name": "aaa",
+          "given_name": "John",
+          "nickname": "aaa",
+          "logins_count": 2,
+          "Hotel_Number": "abc69",
+          "permission": "admin"
+        },
+        {
+          "user_id": "5840b954da0529cd293d76fe",
+          "staff_id": "abc444",
+          "email": "a@a.com",
+          "first_name": "Jane",
+          "last_name": "a",
+          "given_name": "Jane",
+          "nickname": "a",
+          "Hotel_Number": "abc69",
+          "permission": "manager"
+        }
       ],
       "hotel_data": {
         "floors": [
@@ -18,16 +61,8 @@
                 "room": "001",
                 "tasks": [
                   {
-                    "task": "Clean up area",
-                    "isDone": false
-                  },
-                  {
-                    "task": "Clean up trash",
-                    "isDone": false
-                  },
-                  {
-                    "task": "Clean up bed",
-                    "isDone": false
+                    "task": "sample",
+                    "isDone": true
                   }
                 ]
               },
@@ -35,16 +70,12 @@
                 "room": "002",
                 "tasks": [
                   {
-                    "task": "Clean up area",
-                    "isDone": false
-                  },
-                  {
                     "task": "Clean up trash",
-                    "isDone": false
+                    "isDone": true
                   },
                   {
                     "task": "Clean up bed",
-                    "isDone": false
+                    "isDone": true
                   }
                 ]
               },
@@ -53,15 +84,15 @@
                 "tasks": [
                   {
                     "task": "Clean up area",
-                    "isDone": false
+                    "isDone": true
                   },
                   {
                     "task": "Clean up trash",
-                    "isDone": false
+                    "isDone": true
                   },
                   {
                     "task": "Clean up bed",
-                    "isDone": false
+                    "isDone": true
                   }
                 ]
               }
@@ -73,10 +104,6 @@
               {
                 "room": "101",
                 "tasks": [
-                  {
-                    "task": "Clean up area",
-                    "isDone": false
-                  },
                   {
                     "task": "Clean up trash",
                     "isDone": false
@@ -91,16 +118,12 @@
                 "room": "102",
                 "tasks": [
                   {
-                    "task": "Clean up area",
-                    "isDone": false
-                  },
-                  {
                     "task": "Clean up trash",
-                    "isDone": false
+                    "isDone": true
                   },
                   {
                     "task": "Clean up bed",
-                    "isDone": false
+                    "isDone": true
                   }
                 ]
               },
@@ -108,16 +131,12 @@
                 "room": "103",
                 "tasks": [
                   {
-                    "task": "Clean up area",
-                    "isDone": false
-                  },
-                  {
                     "task": "Clean up trash",
-                    "isDone": false
+                    "isDone": true
                   },
                   {
                     "task": "Clean up bed",
-                    "isDone": false
+                    "isDone": true
                   }
                 ]
               }
@@ -135,11 +154,7 @@
                   },
                   {
                     "task": "Clean up trash",
-                    "isDone": false
-                  },
-                  {
-                    "task": "Clean up bed",
-                    "isDone": false
+                    "isDone": true
                   }
                 ]
               },
@@ -147,16 +162,8 @@
                 "room": "202",
                 "tasks": [
                   {
-                    "task": "Clean up area",
-                    "isDone": false
-                  },
-                  {
-                    "task": "Clean up trash",
-                    "isDone": false
-                  },
-                  {
                     "task": "Clean up bed",
-                    "isDone": false
+                    "isDone": true
                   }
                 ]
               },
@@ -165,15 +172,15 @@
                 "tasks": [
                   {
                     "task": "Clean up area",
-                    "isDone": false
+                    "isDone": true
                   },
                   {
                     "task": "Clean up trash",
-                    "isDone": false
+                    "isDone": true
                   },
                   {
                     "task": "Clean up bed",
-                    "isDone": false
+                    "isDone": true
                   }
                 ]
               }
@@ -184,7 +191,7 @@
     },
     {
       "id": "c3a6",
-      "Hotel_Number": "exp000",
+      "Hotel_Number": "abc69",
       "Staff_List": [
         "abc000",
         "abc111",
@@ -200,16 +207,20 @@
                 "room": "001",
                 "tasks": [
                   {
-                    "task": "Clean up area",
-                    "isDone": false
-                  },
-                  {
                     "task": "Clean up trash",
                     "isDone": false
                   },
                   {
                     "task": "Clean up bed",
-                    "isDone": false
+                    "isDone": true
+                  },
+                  {
+                    "task": "Clean car",
+                    "isDone": true
+                  },
+                  {
+                    "task": "s",
+                    "isDone": true
                   }
                 ]
               },
@@ -217,16 +228,12 @@
                 "room": "002",
                 "tasks": [
                   {
-                    "task": "Clean up area",
-                    "isDone": false
-                  },
-                  {
                     "task": "Clean up trash",
-                    "isDone": false
+                    "isDone": true
                   },
                   {
                     "task": "Clean up bed",
-                    "isDone": false
+                    "isDone": true
                   }
                 ]
               },
@@ -235,15 +242,15 @@
                 "tasks": [
                   {
                     "task": "Clean up area",
-                    "isDone": false
+                    "isDone": true
                   },
                   {
                     "task": "Clean up trash",
-                    "isDone": false
+                    "isDone": true
                   },
                   {
                     "task": "Clean up bed",
-                    "isDone": false
+                    "isDone": true
                   }
                 ]
               }
@@ -547,5 +554,198 @@
       }
     }
   ],
-  "users": []
+  "users": [
+    {
+      "user_id": "583c3ac3f38e84297c002546",
+      "pass": "dce3cfd9eca4f16e32beda1e40b46d0c298cab660deaf59da60f4073ca9421768da645c3186523cf99957cda60848b4e877e936a8cd049216ef5b1dae2d6c82e",
+      "staff_id": "abc000",
+      "email": "test@test.com",
+      "given_name": "UCTest",
+      "first_name": "UCTest",
+      "last_name": "UCTest",
+      "nickname": "test",
+      "logins_count": 15,
+      "Hotel_Number": "Thisisatest",
+      "permission": "user"
+    },
+    {
+      "user_id": "583c5484cb79a5fe593425a9",
+      "pass": "706613378c5b819859a19d2f980714fd8e4178604d2ee2903d7113677c8e713791631a941107d399895d93dca20579e13c0d7f00264298b8a9971fd8a80b9f46",
+      "staff_id": "abc111",
+      "email": "test1@test.com",
+      "first_name": "Chris",
+      "last_name": "Negron",
+      "given_name": "UCTest1",
+      "nickname": "test1",
+      "logins_count": 1,
+      "Hotel_Number": "exp000",
+      "permission": "user"
+    },
+    {
+      "user_id": "583c57672c7686377d2f66c9",
+      "pass": "85df831a04a93e7b8a131555a141a718a7118358138ba18c1c3e02fa3d0a87ed82184dab7377826addf36e9e99f310a977b64581bb4ba60a0b06726261203f7b",
+      "staff_id": "abc222",
+      "email": "aaa@aaa.com",
+      "first_name": "aaa",
+      "last_name": "aaa",
+      "given_name": "John",
+      "nickname": "aaa",
+      "logins_count": 2,
+      "Hotel_Number": "abc69",
+      "permission": "admin"
+    },
+    {
+      "user_id": "5840b954da0529cd293d76fe",
+      "pass": "0f3fe1651e992a241501979338b39cac87cb32b18130810e2b4aeec645af8af6d6289b3ac70aa526da02a57e31a40879b7e7f2e80a08c8d0e796206e3f0f4aba",
+      "staff_id": "abc444",
+      "email": "a@a.com",
+      "first_name": "Jane",
+      "last_name": "a",
+      "given_name": "Jane",
+      "nickname": "a",
+      "logins_count": 3,
+      "Hotel_Number": "abc69",
+      "permission": "manager"
+    },
+    {
+      "id": "0",
+      "email": "D",
+      "userName": "PlaceHolder",
+      "pass": "D",
+      "hotelID": null
+    },
+    {
+      "email": "D",
+      "userName": "PlaceHolder",
+      "pass": "D",
+      "hotelID": null,
+      "id": "mRyMN15"
+    },
+    {
+      "email": "S",
+      "userName": "PlaceHolder",
+      "pass": "S",
+      "hotelID": null,
+      "id": "sUrdSL9"
+    },
+    {
+      "email": "s",
+      "userName": "PlaceHolder",
+      "pass": "s",
+      "hotelID": null,
+      "id": "uJyliW1"
+    },
+    {
+      "email": "d",
+      "userName": "PlaceHolder",
+      "pass": "d",
+      "hotelID": null,
+      "id": "ULRTp68"
+    },
+    {
+      "email": "D",
+      "userName": "PlaceHolder",
+      "pass": "D",
+      "hotelID": null,
+      "id": "fUtsAmr"
+    },
+    {
+      "email": "s",
+      "userName": "PlaceHolder",
+      "pass": "s",
+      "hotelID": null,
+      "id": "erfPCSF"
+    },
+    {
+      "email": "s",
+      "userName": "PlaceHolder",
+      "pass": "s",
+      "hotelID": null,
+      "id": "-Uu1KR8"
+    },
+    {
+      "email": "s",
+      "userName": "PlaceHolder",
+      "pass": "s",
+      "hotelID": null,
+      "id": "_1-MSO4"
+    },
+    {
+      "email": "s",
+      "userName": "PlaceHolder",
+      "pass": "s",
+      "hotelID": null,
+      "id": "0dQcwy2"
+    },
+    {
+      "email": "s",
+      "userName": "PlaceHolder",
+      "pass": "s",
+      "hotelID": null,
+      "id": "x6exC1g"
+    },
+    {
+      "email": "s",
+      "userName": "PlaceHolder",
+      "pass": "s",
+      "hotelID": null,
+      "id": "mahJPD6"
+    },
+    {
+      "email": "d",
+      "userName": "PlaceHolder",
+      "pass": "d",
+      "hotelID": null,
+      "id": "k7L6JZu"
+    },
+    {
+      "email": "s",
+      "userName": "PlaceHolder",
+      "pass": "s",
+      "hotelID": null,
+      "id": "YdBYKn1"
+    },
+    {
+      "email": "s",
+      "userName": "PlaceHolder",
+      "pass": "s",
+      "hotelID": "c3a7",
+      "id": "6PVqIVs"
+    },
+    {
+      "email": "d",
+      "userName": "PlaceHolder",
+      "pass": "d",
+      "hotelID": "s",
+      "id": "504H6AH"
+    },
+    {
+      "email": "s",
+      "userName": "PlaceHolder",
+      "pass": "s",
+      "hotelID": "c3a7",
+      "id": "sNVEU5c"
+    },
+    {
+      "email": "s",
+      "userName": "PlaceHolder",
+      "pass": "s",
+      "hotelID": "c3a7",
+      "id": "_CTPyvS"
+    },
+    {
+      "email": "s",
+      "userName": "PlaceHolder",
+      "pass": "s",
+      "hotelID": "c3a6",
+      "id": "0qpOmmM"
+    },
+    {
+      "email": "s",
+      "userName": "PlaceHolder",
+      "pass": "s",
+      "hotelID": "c3a7",
+      "id": "K7wcodG"
+    }
+  ]
 }
