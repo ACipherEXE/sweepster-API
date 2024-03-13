@@ -34,14 +34,14 @@ server.post("/api/login", (req, res) => {
 
   // Search for the user with the provided email
   const user = users.find((user) => user.email === email);
-
+  console.log(user);
   // If user not found or password doesn't match, return error
   if (!user || user.pass !== password) {
     console.log(user ? user.pass : "User not found");
     console.log(password);
     return res.status(401).json({ error: "Invalid email or password" });
   }
-
+  console.log("SCREAM");
   // If password matches, construct and send user data
   const userData = {
     userId: user.id,
