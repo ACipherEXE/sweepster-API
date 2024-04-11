@@ -37,6 +37,16 @@
           "userName": "AC",
           "id": "xD22RXV",
           "permission": "Undefined"
+        },
+        {
+          "userName": "2222",
+          "id": null,
+          "permission": "Undefined"
+        },
+        {
+          "userName": "888",
+          "id": "uC0X2s8",
+          "permission": "Undefined"
         }
       ],
       "hotel_data": {
@@ -183,12 +193,7 @@
     {
       "id": "c3a6",
       "Hotel_Number": "abc69",
-      "Staff_List": [
-        "abc000",
-        "abc111",
-        "abc222",
-        "abc444"
-      ],
+      "Staff_List": ["abc000", "abc111", "abc222", "abc444"],
       "hotel_data": {
         "floors": [
           {
@@ -365,12 +370,7 @@
     {
       "id": "c3a8",
       "Hotel_Number": "Thisisatest",
-      "Staff_List": [
-        "abc000",
-        "abc111",
-        "abc222",
-        "abc444"
-      ],
+      "Staff_List": ["abc000", "abc111", "abc222", "abc444"],
       "hotel_data": {
         "floors": [
           {
@@ -1049,11 +1049,6 @@
       "Staff_List": [
         {
           "userName": "AC",
-          "hotelId": null,
-          "permission": "Admin"
-        },
-        {
-          "userName": "AC",
           "id": "xD22RXV",
           "permission": "Undefined"
         }
@@ -1117,8 +1112,441 @@
           "hotelId": null,
           "id": "xD22RXV",
           "permission": "Admin"
+        },
+        {
+          "userName": "ZOom",
+          "id": null,
+          "permission": "Undefined"
+        },
+        {
+          "userName": "333",
+          "id": "EIVNh32",
+          "permission": "User"
+        },
+        {
+          "userName": "simp",
+          "id": "iN9qS7d",
+          "permission": "User"
         }
       ],
+      "hotel_data": {
+        "floors": [
+          {
+            "floor": "ground",
+            "rooms": [
+              {
+                "room": "001",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "002",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "floor": "2",
+            "rooms": [
+              {
+                "room": "201",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "202",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "xnQGArL"
+    },
+    {
+      "Staff_List": [
+        {
+          "userName": "Air",
+          "permission": "Admin"
+        },
+        {
+          "userName": "Air",
+          "id": null,
+          "permission": "Undefined"
+        }
+      ],
+      "hotel_data": {
+        "floors": [
+          {
+            "floor": "ground",
+            "rooms": [
+              {
+                "room": "001",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "002",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "003",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "004",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "floor": "2",
+            "rooms": [
+              {
+                "room": "201",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "202",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "203",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "204",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "floor": "3",
+            "rooms": [
+              {
+                "room": "301",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "302",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "303",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "304",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "floor": "4",
+            "rooms": [
+              {
+                "room": "401",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "402",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "403",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "404",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "uxD32ys"
+    },
+    {
+      "Staff_List": [
+        {
+          "userName": "2",
+          "permission": "Admin"
+        }
+      ],
+      "hotel_data": {
+        "floors": [
+          {
+            "floor": "ground",
+            "rooms": [
+              {
+                "room": "001",
+                "tasks": [
+                  {
+                    "task": "adad",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "002",
+                "tasks": [
+                  {
+                    "task": "adad",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "floor": "2",
+            "rooms": [
+              {
+                "room": "201",
+                "tasks": [
+                  {
+                    "task": "adad",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "202",
+                "tasks": [
+                  {
+                    "task": "adad",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "ENGZIz_"
+    },
+    {
+      "Staff_List": [
+        {
+          "userName": "2",
+          "permission": "Admin"
+        }
+      ],
+      "hotel_data": {
+        "floors": [
+          {
+            "floor": "ground",
+            "rooms": [
+              {
+                "room": "001",
+                "tasks": [
+                  {
+                    "task": "adad",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "002",
+                "tasks": [
+                  {
+                    "task": "adad",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "floor": "2",
+            "rooms": [
+              {
+                "room": "201",
+                "tasks": [
+                  {
+                    "task": "adad",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "202",
+                "tasks": [
+                  {
+                    "task": "adad",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "9_0bGCB"
+    },
+    {
+      "Staff_List": [
+        {
+          "userName": "2",
+          "permission": "Admin"
+        },
+        {
+          "userName": "2",
+          "id": null,
+          "permission": "Undefined"
+        }
+      ],
+      "hotel_data": {
+        "floors": [
+          {
+            "floor": "ground",
+            "rooms": [
+              {
+                "room": "001",
+                "tasks": [
+                  {
+                    "task": "adad",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "002",
+                "tasks": [
+                  {
+                    "task": "adad",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "floor": "2",
+            "rooms": [
+              {
+                "room": "201",
+                "tasks": [
+                  {
+                    "task": "adad",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "202",
+                "tasks": [
+                  {
+                    "task": "adad",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "jkoqAnX"
+    },
+    {
+      "Staff_List": [],
       "hotel_data": {
         "floors": [
           {
@@ -1169,7 +1597,424 @@
           }
         ]
       },
-      "id": "xnQGArL"
+      "id": "jV9jOqv"
+    },
+    {
+      "Staff_List": [
+        {
+          "userName": "2",
+          "permission": "Admin"
+        }
+      ],
+      "hotel_data": {
+        "floors": [
+          {
+            "floor": "ground",
+            "rooms": [
+              {
+                "room": "001",
+                "tasks": [
+                  {
+                    "task": "Sa",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "002",
+                "tasks": [
+                  {
+                    "task": "Sa",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "floor": "2",
+            "rooms": [
+              {
+                "room": "201",
+                "tasks": [
+                  {
+                    "task": "Sa",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "202",
+                "tasks": [
+                  {
+                    "task": "Sa",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "4N2IHbt"
+    },
+    {
+      "Staff_List": [
+        {
+          "userName": "2",
+          "id": "eRjWvOJ",
+          "permission": "Admin"
+        }
+      ],
+      "hotel_data": {
+        "floors": [
+          {
+            "floor": "ground",
+            "rooms": [
+              {
+                "room": "001",
+                "tasks": [
+                  {
+                    "task": "ss",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "002",
+                "tasks": [
+                  {
+                    "task": "ss",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "floor": "2",
+            "rooms": [
+              {
+                "room": "201",
+                "tasks": [
+                  {
+                    "task": "ss",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "202",
+                "tasks": [
+                  {
+                    "task": "ss",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "8KB7_uR"
+    },
+    {
+      "Staff_List": [
+        {
+          "userName": "Senpai",
+          "id": "4Xda0Xg",
+          "permission": "Admin"
+        },
+        {
+          "userName": "Senpai",
+          "id": null,
+          "permission": "Undefined"
+        }
+      ],
+      "hotel_data": {
+        "floors": [
+          {
+            "floor": "ground",
+            "rooms": [
+              {
+                "room": "001",
+                "tasks": [
+                  {
+                    "task": "Sample 1",
+                    "isDone": false
+                  },
+                  {
+                    "task": "Sample 2",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "002",
+                "tasks": [
+                  {
+                    "task": "Sample 1",
+                    "isDone": false
+                  },
+                  {
+                    "task": "Sample 2",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "floor": "2",
+            "rooms": [
+              {
+                "room": "201",
+                "tasks": [
+                  {
+                    "task": "Sample 1",
+                    "isDone": false
+                  },
+                  {
+                    "task": "Sample 2",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "202",
+                "tasks": [
+                  {
+                    "task": "Sample 1",
+                    "isDone": false
+                  },
+                  {
+                    "task": "Sample 2",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "DSu1Zfl"
+    },
+    {
+      "Staff_List": [
+        {
+          "userName": "212",
+          "id": "uJ1hZyE",
+          "permission": "Admin"
+        }
+      ],
+      "hotel_data": {
+        "floors": [
+          {
+            "floor": "ground",
+            "rooms": [
+              {
+                "room": "001",
+                "tasks": [
+                  {
+                    "task": "2222",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "002",
+                "tasks": [
+                  {
+                    "task": "2222",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "floor": "2",
+            "rooms": [
+              {
+                "room": "201",
+                "tasks": [
+                  {
+                    "task": "2222",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "202",
+                "tasks": [
+                  {
+                    "task": "2222",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "-_jirz_"
+    },
+    {
+      "Staff_List": [
+        {
+          "userName": "212",
+          "id": "uJ1hZyE",
+          "permission": "Admin"
+        }
+      ],
+      "hotel_data": {
+        "floors": [
+          {
+            "floor": "ground",
+            "rooms": [
+              {
+                "room": "001",
+                "tasks": [
+                  {
+                    "task": "2222",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "002",
+                "tasks": [
+                  {
+                    "task": "2222",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "floor": "2",
+            "rooms": [
+              {
+                "room": "201",
+                "tasks": [
+                  {
+                    "task": "2222",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "202",
+                "tasks": [
+                  {
+                    "task": "2222",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "rkeDG9I"
+    },
+    {
+      "Staff_List": [
+        {
+          "userName": "111",
+          "id": "chxpzAJ",
+          "permission": "Admin"
+        },
+        {
+          "userName": "222",
+          "id": null,
+          "permission": "Undefined"
+        }
+      ],
+      "hotel_data": {
+        "floors": [
+          {
+            "floor": "ground",
+            "rooms": [
+              {
+                "room": "001",
+                "tasks": [
+                  {
+                    "task": "Sample",
+                    "isDone": false
+                  },
+                  {
+                    "task": "Sample 2",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "SaUlo3r"
+    },
+    {
+      "Staff_List": [
+        {
+          "userName": "Sample",
+          "id": "E7bRzSL",
+          "permission": "Admin"
+        }
+      ],
+      "hotel_data": {
+        "floors": [
+          {
+            "floor": "ground",
+            "rooms": [
+              {
+                "room": "001",
+                "tasks": [
+                  {
+                    "task": "Test",
+                    "isDone": true
+                  }
+                ]
+              },
+              {
+                "room": "002",
+                "tasks": [
+                  {
+                    "task": "Test",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "floor": "2",
+            "rooms": [
+              {
+                "room": "201",
+                "tasks": [
+                  {
+                    "task": "Test",
+                    "isDone": false
+                  }
+                ]
+              },
+              {
+                "room": "202",
+                "tasks": [
+                  {
+                    "task": "Test",
+                    "isDone": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "PfXieYK"
     }
   ],
   "users": [
@@ -1281,6 +2126,143 @@
       "hotelId": "xnQGArL",
       "pass": "$2a$10$abcdefghijklmnopqrstuu6Oysh8yVBzVFw0KLCNipWaf6X5MFsM2",
       "id": "xD22RXV"
+    },
+    {
+      "email": "Air",
+      "userName": "PlaceHolder",
+      "pass": "$2a$10$abcdefghijklmnopqrstuuO4E6GTkR180.vkXWWV4BEnwVgC9eyHK",
+      "hotelId": "uxD32ys",
+      "id": "Mc6RpDf"
+    },
+    {
+      "email": "ZOom",
+      "userName": "PlaceHolder",
+      "pass": "$2a$10$abcdefghijklmnopqrstuuqZ932.i/h803.j8KakQjy5DEiGpDeVy",
+      "hotelId": "xnQGArL",
+      "id": "XuD2euX"
+    },
+    {
+      "email": "2",
+      "userName": "PlaceHolder",
+      "pass": "$2a$10$abcdefghijklmnopqrstuu8uQh7b.y67OmSM3MWw1eZEQlXlT9cqy",
+      "hotelId": "8KB7_uR",
+      "id": "eRjWvOJ"
+    },
+    {
+      "email": "2222",
+      "userName": "PlaceHolder",
+      "pass": "$2a$10$abcdefghijklmnopqrstuuo2WSODo0dZo/85ZEx/jZqCz3qmr2qG2",
+      "hotelId": "c3a7",
+      "id": "LFV_xrK"
+    },
+    {
+      "email": "1111",
+      "userName": "PlaceHolder",
+      "pass": "$2a$10$abcdefghijklmnopqrstuuO4E6GTkR180.vkXWWV4BEnwVgC9eyHK",
+      "hotelId": "c3a7",
+      "id": "UU2ifjq"
+    },
+    {
+      "email": "Senpai",
+      "userName": "PlaceHolder",
+      "pass": "$2a$10$abcdefghijklmnopqrstuuO4E6GTkR180.vkXWWV4BEnwVgC9eyHK",
+      "hotelId": "DSu1Zfl",
+      "id": "4Xda0Xg"
+    },
+    {
+      "email": "zaku",
+      "userName": "PlaceHolder",
+      "pass": "$2a$10$abcdefghijklmnopqrstuuO4E6GTkR180.vkXWWV4BEnwVgC9eyHK",
+      "hotelId": "xnQGArL",
+      "id": "HDs5G-c"
+    },
+    {
+      "email": "simp",
+      "userName": "PlaceHolder",
+      "pass": "$2a$10$abcdefghijklmnopqrstuuO4E6GTkR180.vkXWWV4BEnwVgC9eyHK",
+      "hotelId": "xnQGArL",
+      "id": "iN9qS7d"
+    },
+    {
+      "email": "Sample",
+      "userName": "PlaceHolder",
+      "pass": "$2a$10$abcdefghijklmnopqrstuuqZ932.i/h803.j8KakQjy5DEiGpDeVy",
+      "hotelId": "PfXieYK",
+      "id": "E7bRzSL"
+    },
+    {
+      "email": "888",
+      "userName": "PlaceHolder",
+      "pass": "$2a$10$abcdefghijklmnopqrstuuTnZGl5A1ltLsOF/eodACwIUH.THuqT2",
+      "hotelId": "c3a7",
+      "id": "uC0X2s8"
+    }
+  ],
+  "meals": [
+    {
+      "id": 0,
+      "meal": "Meat",
+      "ingredients": [
+        {
+          "item": "cabbage",
+          "quantity": 2
+        },
+        {
+          "item": "carrot",
+          "quantity": 3
+        },
+        {
+          "item": "potato",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "meal": "Fish0",
+      "ingredients": [
+        {
+          "item": "lettuce",
+          "quantity": 1
+        },
+        {
+          "item": "tomato",
+          "quantity": 2
+        },
+        {
+          "item": "onion",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "meal": "Fish1",
+      "ingredients": [
+        {
+          "item": "lettuce",
+          "quantity": 1
+        },
+        {
+          "item": "tomato",
+          "quantity": 2
+        },
+        {
+          "item": "onion",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "meal": "sample",
+      "ingredients": [
+        {
+          "item": "sample",
+          "quantity": 1
+        }
+      ],
+      "description": "sample",
+      "id": 5
     }
   ]
 }
